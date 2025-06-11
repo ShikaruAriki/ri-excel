@@ -9,10 +9,11 @@ build-backend = "setuptools.build_meta"
 name = "ri-excel"
 version = "0.1.0"
 description = "Utilities for excel management."
+readme = "README.md"
+license = "Apache-2.0"
 authors = [
   { name="Ravetta Stefano", email="s.ravetta94@gmail.com" }
 ]
-license = { text = "Apache-2.0" }
 dependencies = [
   "build==1.2.2",
   "dataclass-wizard==0.35.0",
@@ -24,3 +25,10 @@ dependencies = [
   "twine==6.1.0",
   "wheel==0.46.1"
 ]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Operating System :: OS Independent"
+]
+requires-python = ">=3.10.12"
+urls = { "Homepage" = "https://github.com/ShikaruAriki/ri-excel" }

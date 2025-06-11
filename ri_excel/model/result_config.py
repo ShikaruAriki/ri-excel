@@ -11,3 +11,30 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
+from __future__ import annotations
+
+from dataclasses import dataclass
+from typing import List, TypedDict
+
+from dataclass_wizard import JSONWizard
+
+from ri_excel.model.field_config import FieldConfig, FieldConfigType
+
+
+@dataclass
+class ResultConfig(JSONWizard):
+    name: str
+    fields: List[FieldConfig]
+
+    @staticmethod
+    def new(name: str, fields: List[FieldConfigType]) -> ResultConfigType:
+        return {
+            'name': name,
+            'fields': fields,
+        }
+
+
+class ResultConfigType(TypedDict):
+    name: str
+    fields: List[FieldConfigType]

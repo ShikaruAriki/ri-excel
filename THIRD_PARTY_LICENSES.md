@@ -1,6 +1,6 @@
-# Licenze delle librerie di terze parti
+# Third-party library licenses
 
-Questo file elenca le licenze delle librerie esterne usate nel progetto.
+This file lists the licenses of the external libraries used in the project.
 
 - **build**: Apache License 2.0  
   https://github.com/pypa/build/blob/main/LICENSE
@@ -12,7 +12,7 @@ Questo file elenca le licenze delle librerie esterne usate nel progetto.
   https://github.com/seperman/deepdiff/blob/master/LICENSE
 
 - **openpyxl**: MIT License  
-  https://bitbucket.org/openpyxl/openpyxl/src/default/LICENSE
+  https://foss.heptapod.net/openpyxl/openpyxl/-/blob/branch/default/LICENCE.rst
 
 - **pytest**: MIT License  
   https://github.com/pytest-dev/pytest/blob/main/LICENSE
@@ -27,4 +27,4 @@ Questo file elenca le licenze delle librerie esterne usate nel progetto.
   https://github.com/pypa/twine/blob/main/LICENSE
 
 - **wheel**: MIT License  
-  https://github.com/pypa/wheel/blob/main/LICENSE
+  https://github.com/pypa/wheel/blob/main/LICENSE.txt

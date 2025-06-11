@@ -2,6 +2,27 @@
 
 Utilities for excel management.
 
+## Configuring the `.pypirc` file
+
+Before publishing the package to PyPI and TestPyPI, make sure to create the .pypirc file in your home directory
+(~/.pypirc) with the following content:
+
+```ini
+[distutils]
+index-servers =
+    pypi
+    testpypi
+
+[pypi]
+username = __token__
+password = <PyPI_token>
+
+[testpypi]
+repository = https://test.pypi.org/legacy/
+username = __token__
+password = <TestPyPI_token>
+```
+
 ## License
 
 This project is released under Apache License 2.0.
